@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Resotho';
+    src: url('../fonts/Resotho-Extralight.eot');
+    src: url('../fonts/Resotho-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Resotho-Extralight.woff2') format('woff2'),
+        url('../fonts/Resotho-Extralight.woff') format('woff'),
+        url('../fonts/Resotho-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

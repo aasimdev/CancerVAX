@@ -1,0 +1,34 @@
+.navbar-brand{
+    img{
+        width: 300px;
+        height: auto;
+    }
+}
+.f-chivo{
+    font-family: 'Chivo', sans-serif !important;
+}
+.f-Grotesk{
+font-family: 'Space Grotesk', sans-serif !important;
+}
+.nav-item{
+    padding: 0 15px;
+    a{
+        font-size: 13px;
+        font-weight: 700;
+        color: #fff !important;
+        border-bottom: 1px solid #2AB9C0;
+        position: relative;
+        &::after{
+            display:block;
+            content: '';
+            border-bottom: solid 3px #ea2129;  
+            transform: scaleX(0);  
+            transition: transform 250ms ease-in-out;
+
+        }
+
+    }
+}
+a.from-Left::after{ 
+     transform-origin:  0% 50%;
+     }
